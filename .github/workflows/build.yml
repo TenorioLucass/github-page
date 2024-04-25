@@ -15,6 +15,7 @@ jobs:
           node-version: '22.x'
       - name: Build web-app
         run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
           yarn install --frozen-lockfile
           yarn run build
       - name: Deploy to gh-pages
