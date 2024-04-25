@@ -5,7 +5,6 @@ import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from '../../../components/styledButton/styledButton';
 import  {AnimatedBackground}  from '../../../components/AnimatedBackground/AnimatedBackground';
-import { stringify } from 'querystring';
 
 
 const PDF_FILE_URL = 'https://tenoriolucass.github.io/github-page/Currículo-0.pdf'
