@@ -5,6 +5,10 @@ import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from '../../../components/styledButton/styledButton';
 import  {AnimatedBackground}  from '../../../components/AnimatedBackground/AnimatedBackground';
+import { stringify } from 'querystring';
+
+
+const PDF_FILE_URL = 'https://tenoriolucass.github.io/github-page/Currículo-0.pdf'
 
 export default function Hero() {
 
@@ -26,6 +30,15 @@ export default function Hero() {
     width: '90%',
     border: `2px solid ${theme.palette.primary.contrastText}`
   }))
+
+  const downloadCV = (url:string) =>{
+    const aTag = document.createElement('a')
+    aTag.href = url
+    aTag.setAttribute('download', "Currículo-0.pdf")
+    document.body.appendChild(aTag)
+    aTag.click();
+    aTag.remove();
+  }
   
     return (
         <>
@@ -47,7 +60,7 @@ export default function Hero() {
                   <Typography color='primary.contrastText' variant='h2' textAlign='center' pb={2}>I'm a Software Engineer</Typography>
                   <Grid container display="flex" justifyContent="center" spacing={3}>
                     <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                      <StyledButton onClick={()=> { console.log("oooooo")}}>
+                      <StyledButton onClick={()=> downloadCV(PDF_FILE_URL)}>
                         <DownloadIcon/>
                           <Typography>
                             Download CV
