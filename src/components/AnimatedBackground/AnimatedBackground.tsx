@@ -1,6 +1,6 @@
 import {Box} from "@mui/material"
 import React from 'react';
-export const AnimatedBackground = () =>{
+const AnimatedBackground = () =>{
     return(
         <Box>
 
@@ -364,3 +364,4 @@ export const AnimatedBackground = () =>{
         </Box>
     )
 }
+export default AnimatedBackground

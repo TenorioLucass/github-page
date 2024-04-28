@@ -4,7 +4,7 @@ import Avatar from '../../../assets/avatar.jpeg';
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from '../../../components/styledButton/styledButton';
-import  {AnimatedBackground}  from '../../../components/AnimatedBackground/AnimatedBackground';
+import  AnimatedBackground  from '../../../components/AnimatedBackground/AnimatedBackground';
 
 
 const PDF_FILE_URL = 'https://tenoriolucass.github.io/github-page/Currículo-0.pdf'
@@ -38,12 +38,17 @@ export default function Hero() {
     aTag.click();
     aTag.remove();
   }
+  const mailTo = () =>{
+    const email = "mailto:tenrio.lucas03@gmail.com";
+    window.location.href = email;
+
+  }
   
     return (
         <>
           <BackgroundContainer>
             <Container maxWidth="lg">
-              <Grid container spacing={2}>
+              <Grid container spacing={2} alignItems={"center"}>
                 <Grid item xs={12} md={5}>
                   <Box position='relative'>
                     <Box position='absolute' width={"100%"} top={100} >
@@ -58,7 +63,7 @@ export default function Hero() {
                   <Typography color='primary.contrastText' variant='h1' textAlign='center'>Lucas Tenório</Typography>
                   <Typography color='primary.contrastText' variant='h2' textAlign='center' pb={2}>I'm a Software Engineer</Typography>
                   <Grid container display="flex" justifyContent="center" spacing={3}>
-                    <Grid item xs={12} md={4} display="flex" justifyContent="center">
+                    <Grid item xs={12} md={4} display="flex">
                       <StyledButton onClick={()=> downloadCV(PDF_FILE_URL)}>
                         <DownloadIcon/>
                           <Typography>
@@ -66,13 +71,14 @@ export default function Hero() {
                           </Typography>
                       </StyledButton>
                     </Grid>
-                    <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                      <StyledButton >
+                    <Grid item xs={12} md={4} display="flex" >
+                      <StyledButton onClick={()=> mailTo()}>
                         <EmailIcon/>
                         <Typography>
                           Contact me
                         </Typography>
                       </StyledButton>
+                      
                     </Grid>
                   </Grid>
                  
