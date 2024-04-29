@@ -11,7 +11,7 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/github-page/' element={<Home/>}/>
         <Route path='/Home' element={<Home/>}/>
         <Route path='/Skills' element={<Skills/>}/>
         <Route path='/Projects' element={<Skills/>}/>
