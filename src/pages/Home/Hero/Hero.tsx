@@ -49,7 +49,7 @@ export default function Hero() {
           <BackgroundContainer>
             <Container maxWidth="lg">
               <Grid container spacing={2} alignItems={"center"}>
-                <Grid item xs={12} md={5}>
+                <Grid item xs={12} md={4}>
                   <Box position='relative'>
                     <Box position='absolute' width={"100%"} top={100} >
                       <AnimatedBackground/>
@@ -59,9 +59,10 @@ export default function Hero() {
                     </Box>
                   </Box>
                 </Grid>
-                <Grid item xs={12} md={7}>
-                  <Typography color='primary.contrastText' variant='h1' textAlign='center'>Lucas Tenório</Typography>
-                  <Typography color='primary.contrastText' variant='h2' textAlign='center' pb={2}>I'm a Software Engineer</Typography>
+                <Grid item xs={12} md={8}>
+                  <Typography color='primary.contrastText' variant='h2' textAlign='center'>Lucas Tenório</Typography>
+                  <Typography color='primary.contrastText' variant='h6' textAlign='center' pb={2}>Olá! Sou Engenheiro de Software, no fim da graduação em Ciência da Computação pela Universidade de São Paulo, em busca de aprendizado e
+com ótimas habilidades de comunicação e trabalho em equipe.</Typography>
                   <Grid container display="flex" justifyContent="center" spacing={3}>
                     <Grid item xs={12} md={4} display="flex">
                       <StyledButton onClick={()=> downloadCV(PDF_FILE_URL)}>

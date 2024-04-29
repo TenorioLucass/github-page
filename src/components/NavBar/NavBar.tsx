@@ -20,17 +20,17 @@ export default function NavBar() {
         <>
             <AppBar position="absolute">
                 <StyledToolbar>
-                    <Link to="/About" style={{textDecoration:"none"}}>
+                    <Link to="/github-page/About" style={{textDecoration:"none"}}>
                         <StyledToolbarButton>
                             <Typography color='primary.contrastText' >About</Typography>
                         </StyledToolbarButton>
                     </Link>
-                    <Link to="/Skills" style={{textDecoration:"none"}}>
+                    <Link to="/github-page/Skills" style={{textDecoration:"none"}}>
                         <StyledToolbarButton>
                             <Typography color='primary.contrastText' >Skills</Typography>
                         </StyledToolbarButton>
                     </Link>
-                    <Link to="/Projects" style={{textDecoration:"none"}}>
+                    <Link to="/github-page/Projects" style={{textDecoration:"none"}}>
                         <StyledToolbarButton>
                             <Typography color='primary.contrastText'>Projects</Typography>
                         </StyledToolbarButton>
