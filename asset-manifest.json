@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/github-page/static/css/main.c6001462.chunk.css",
-    "main.js": "/github-page/static/js/main.cd7c7470.chunk.js",
-    "main.js.map": "/github-page/static/js/main.cd7c7470.chunk.js.map",
-    "runtime-main.js": "/github-page/static/js/runtime-main.10598a97.js",
-    "runtime-main.js.map": "/github-page/static/js/runtime-main.10598a97.js.map",
-    "static/js/2.15345720.chunk.js": "/github-page/static/js/2.15345720.chunk.js",
-    "static/js/2.15345720.chunk.js.map": "/github-page/static/js/2.15345720.chunk.js.map",
-    "static/js/3.97107dce.chunk.js": "/github-page/static/js/3.97107dce.chunk.js",
-    "static/js/3.97107dce.chunk.js.map": "/github-page/static/js/3.97107dce.chunk.js.map",
+    "main.js": "/github-page/static/js/main.9ca09d63.chunk.js",
+    "main.js.map": "/github-page/static/js/main.9ca09d63.chunk.js.map",
+    "runtime-main.js": "/github-page/static/js/runtime-main.c511256a.js",
+    "runtime-main.js.map": "/github-page/static/js/runtime-main.c511256a.js.map",
+    "static/js/2.2aebe436.chunk.js": "/github-page/static/js/2.2aebe436.chunk.js",
+    "static/js/2.2aebe436.chunk.js.map": "/github-page/static/js/2.2aebe436.chunk.js.map",
+    "static/js/3.8de5d360.chunk.js": "/github-page/static/js/3.8de5d360.chunk.js",
+    "static/js/3.8de5d360.chunk.js.map": "/github-page/static/js/3.8de5d360.chunk.js.map",
     "index.html": "/github-page/index.html",
-    "precache-manifest.6187c8d78a04d32acd216c55da145191.js": "/github-page/precache-manifest.6187c8d78a04d32acd216c55da145191.js",
+    "precache-manifest.aafe3f5bfa16c122ceec7ec3172f62fb.js": "/github-page/precache-manifest.aafe3f5bfa16c122ceec7ec3172f62fb.js",
     "service-worker.js": "/github-page/service-worker.js",
     "static/css/main.c6001462.chunk.css.map": "/github-page/static/css/main.c6001462.chunk.css.map",
-    "static/js/2.15345720.chunk.js.LICENSE.txt": "/github-page/static/js/2.15345720.chunk.js.LICENSE.txt",
+    "static/js/2.2aebe436.chunk.js.LICENSE.txt": "/github-page/static/js/2.2aebe436.chunk.js.LICENSE.txt",
     "static/media/avatar.jpeg": "/github-page/static/media/avatar.8071d23d.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.10598a97.js",
-    "static/js/2.15345720.chunk.js",
+    "static/js/runtime-main.c511256a.js",
+    "static/js/2.2aebe436.chunk.js",
     "static/css/main.c6001462.chunk.css",
-    "static/js/main.cd7c7470.chunk.js"
+    "static/js/main.9ca09d63.chunk.js"
   ]
 }
