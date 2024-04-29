@@ -1,7 +1,5 @@
 import React from 'react'
-import {styled, Grid, Container, Typography, List, ListItem, ListItemText, ListItemIcon, Stack} from '@mui/material';
-import Avatar from '../../assets/avatar.jpeg';
-import DownloadIcon from '@mui/icons-material/Download';
+import {styled, Grid, Container, Typography, ListItemIcon} from '@mui/material';
 import GitHubIcon from '../../assets/githubIcon';
 import ReactIcon from '../../assets/reactIcon';
 import NodeIcon from '../../assets/nodeIcon';
@@ -12,8 +10,6 @@ import CIcon from '../../assets/cIcon';
 import SqlIcon from '../../assets/sqlIcon';
 import ReactNativeIcon from '../../assets/reactNativeIcon';
 import theme from '../../theme';
-import StyledButton from '../../components/styledButton/styledButton';
-import  AnimatedBackground from '../../components/AnimatedBackground/AnimatedBackground'
 // import ReactIcon from "../../assets/reactIcon.svg";
 
 export default function Skills() {
