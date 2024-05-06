@@ -1,8 +1,6 @@
 import React from 'react'
 import {styled, Grid, Container, Typography} from '@mui/material';
 
-import theme from '../../theme';
-// import ReactIcon from "../../assets/reactIcon.svg";
 
 export default function Skills() {
 
@@ -19,7 +17,8 @@ export default function Skills() {
     },
   }))
 
-  const Item = styled("div")(({theme}) =>({
+  const Item = styled("button")(({theme}) =>({
+    backgroundColor: 'transparent',
     borderRadius: '10%',
     height: "40vh",
     width: "30vh",
@@ -40,7 +39,7 @@ export default function Skills() {
     backgroundColor: 'white',
     borderRadius: '50%',
     height: '40%',
-    border: `2px solid ${theme.palette.primary.contrastText}`
+    border: `3px solid ${theme.palette.secondary.dark}`
   }))
 
   const items=[
@@ -86,7 +85,7 @@ export default function Skills() {
                   <Typography textAlign="center" color='secondary'>
                       {item.title}
                     </Typography>
-                  <Item >
+                  <Item onClick={()=>{console.log("modal")}}>
                     <StyledImg src={item.image}/>
                     {/* <Typography color='secondary'>
                       {item.title}
@@ -95,7 +94,6 @@ export default function Skills() {
                       {item.text}
                     </Typography>
                   </Item>
-                  
                 </Grid>
   ))}
               </Grid>
